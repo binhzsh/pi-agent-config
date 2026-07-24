@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Deploy"
+  short_description: "Research and deploy Docker apps"
+  default_prompt: "Use $deploy-docker-app to research this app, create a compose stack in the target directory, deploy it, and verify it starts cleanly."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Stack Research"
+  short_description: "Track new AI tools for this host"
+  default_prompt: "Use $research-local-ai-stack to inspect this machine, compare it with /mnt/fast_pool/fast_models, research current AI releases, and return the best-fit new models or apps."

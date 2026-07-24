@@ -1,0 +1,4 @@
+interface:
+  display_name: "Server Security Audit"
+  short_description: "Audit server risk and fix selected issues"
+  default_prompt: "Use $audit-server-security to inspect this server, produce a prioritized security and health report, ask which issue to fix, then remediate the selected item and verify it."

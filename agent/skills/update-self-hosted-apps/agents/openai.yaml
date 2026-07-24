@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Update Audit"
+  short_description: "Check container and system updates"
+  default_prompt: "Use $update-self-hosted-apps to inspect this host, compare running container versions with compose files and current upstream releases, ask what to update, and then perform the selected app and apt upgrades safely."
