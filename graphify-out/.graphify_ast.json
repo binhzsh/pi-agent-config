@@ -1,0 +1,804 @@
+{
+  "nodes": [
+    {
+      "id": "agent_models",
+      "label": "models.json",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "agent_models_providers",
+      "label": "providers",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "agent_models_providers_llamacpp",
+      "label": "llamacpp",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "agent_models_llamacpp_baseurl",
+      "label": "baseUrl",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "agent_models_llamacpp_api",
+      "label": "api",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "agent_models_llamacpp_apikey",
+      "label": "apiKey",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "agent_models_llamacpp_models",
+      "label": "models",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "agent_models_providers_omlx",
+      "label": "omlx",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L172"
+    },
+    {
+      "id": "agent_models_omlx_baseurl",
+      "label": "baseUrl",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L173"
+    },
+    {
+      "id": "agent_models_omlx_api",
+      "label": "api",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L174"
+    },
+    {
+      "id": "agent_models_omlx_apikey",
+      "label": "apiKey",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L175"
+    },
+    {
+      "id": "agent_models_omlx_models",
+      "label": "models",
+      "file_type": "code",
+      "source_file": "agent/models.json",
+      "source_location": "L176"
+    },
+    {
+      "id": "agent_settings",
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "agent_settings_lastchangelogversion",
+      "label": "lastChangelogVersion",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "agent_settings_theme",
+      "label": "theme",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "agent_settings_defaultprovider",
+      "label": "defaultProvider",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "agent_settings_defaultmodel",
+      "label": "defaultModel",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "agent_settings_defaultthinkinglevel",
+      "label": "defaultThinkingLevel",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "agent_settings_skills",
+      "label": "skills",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "agent_settings_enableskillcommands",
+      "label": "enableSkillCommands",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "agent_settings_packages",
+      "label": "packages",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "agent_settings_memory",
+      "label": "memory",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "agent_settings_memory_consolidationmodel",
+      "label": "consolidationModel",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "agent_settings_hidethinkingblock",
+      "label": "hideThinkingBlock",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "agent_settings_quietstartup",
+      "label": "quietStartup",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "agent_settings_doubleescapeaction",
+      "label": "doubleEscapeAction",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "agent_settings_enabledmodels",
+      "label": "enabledModels",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "agent_settings_terminal",
+      "label": "terminal",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "agent_settings_terminal_imagewidthcells",
+      "label": "imageWidthCells",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "agent_settings_terminal_showterminalprogress",
+      "label": "showTerminalProgress",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "agent_settings_editorpaddingx",
+      "label": "editorPaddingX",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "agent_settings_steeringmode",
+      "label": "steeringMode",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L36"
+    },
+    {
+      "id": "agent_settings_followupmode",
+      "label": "followUpMode",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "agent_settings_transport",
+      "label": "transport",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "agent_settings_collapsechangelog",
+      "label": "collapseChangelog",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "agent_settings_enableinstalltelemetry",
+      "label": "enableInstallTelemetry",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L40"
+    },
+    {
+      "id": "agent_settings_treefiltermode",
+      "label": "treeFilterMode",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L41"
+    },
+    {
+      "id": "agent_settings_warnings",
+      "label": "warnings",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L42"
+    },
+    {
+      "id": "agent_settings_warnings_anthropicextrausage",
+      "label": "anthropicExtraUsage",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L43"
+    },
+    {
+      "id": "agent_settings_httpidletimeoutms",
+      "label": "httpIdleTimeoutMs",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L45"
+    },
+    {
+      "id": "agent_settings_compaction",
+      "label": "compaction",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L46"
+    },
+    {
+      "id": "agent_settings_compaction_enabled",
+      "label": "enabled",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L47"
+    },
+    {
+      "id": "agent_settings_compaction_reservetokens",
+      "label": "reserveTokens",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L48"
+    },
+    {
+      "id": "agent_settings_compaction_keeprecenttokens",
+      "label": "keepRecentTokens",
+      "file_type": "code",
+      "source_file": "agent/settings.json",
+      "source_location": "L49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "agent_models",
+      "target": "agent_models_providers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers",
+      "target": "agent_models_providers_llamacpp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_llamacpp",
+      "target": "agent_models_llamacpp_baseurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_llamacpp",
+      "target": "agent_models_llamacpp_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_llamacpp",
+      "target": "agent_models_llamacpp_apikey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_llamacpp",
+      "target": "agent_models_llamacpp_models",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers",
+      "target": "agent_models_providers_omlx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_omlx",
+      "target": "agent_models_omlx_baseurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_omlx",
+      "target": "agent_models_omlx_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_omlx",
+      "target": "agent_models_omlx_apikey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_models_providers_omlx",
+      "target": "agent_models_omlx_models",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/models.json",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_lastchangelogversion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_theme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_defaultprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_defaultmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_defaultthinkinglevel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_skills",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_skills",
+      "target": "ref_users_binh_pi_agent_skills",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_enableskillcommands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_packages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_packages",
+      "target": "ref_npm_samfp_pi_memory",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_packages",
+      "target": "ref_npm_pi_agent_goal",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_packages",
+      "target": "ref_npm_agentapprove_pi_0_1_6",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_memory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_memory",
+      "target": "agent_settings_memory_consolidationmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_hidethinkingblock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_quietstartup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_doubleescapeaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_enabledmodels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen27",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen27_think",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen27_vision",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen27_abliterated",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen27_code",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen35",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings_enabledmodels",
+      "target": "ref_llamacpp_qwen35_think",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_terminal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_terminal",
+      "target": "agent_settings_terminal_imagewidthcells",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_terminal",
+      "target": "agent_settings_terminal_showterminalprogress",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_editorpaddingx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_steeringmode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_followupmode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_transport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_collapsechangelog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_enableinstalltelemetry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_treefiltermode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_warnings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_warnings",
+      "target": "agent_settings_warnings_anthropicextrausage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_httpidletimeoutms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings",
+      "target": "agent_settings_compaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_compaction",
+      "target": "agent_settings_compaction_enabled",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_compaction",
+      "target": "agent_settings_compaction_reservetokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_settings_compaction",
+      "target": "agent_settings_compaction_keeprecenttokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent/settings.json",
+      "source_location": "L49",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

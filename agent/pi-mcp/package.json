@@ -1,0 +1,36 @@
+{
+  "name": "@eliemessiecode/pi-mcp",
+  "version": "1.2.2",
+  "description": "Connect MCP (Model Context Protocol) HTTP servers to Pi agent. Auto-discover and use MCP tools.",
+  "keywords": [
+    "pi-package",
+    "mcp",
+    "model-context-protocol",
+    "extension",
+    "ai-agent",
+    "tools"
+  ],
+  "main": "index.ts",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElieMessieCode/pi-mcp.git"
+  },
+  "homepage": "https://github.com/ElieMessieCode/pi-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/ElieMessieCode/pi-mcp/issues"
+  },
+  "author": "ElieMessieCode",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

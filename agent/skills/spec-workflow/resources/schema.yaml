@@ -1,0 +1,36 @@
+# Pi Spec-Driven Development — Schema Definition
+# This defines the artifact graph for the spec-driven workflow.
+# Each skill reads this to know what artifacts exist and their dependencies.
+
+name: spec-driven
+version: 1
+description: Pi's spec-driven workflow — proposal → specs → design → tasks
+
+artifacts:
+  - id: proposal
+    generates: proposal.md
+    description: Initial proposal document outlining the change
+    requires: []
+
+  - id: specs
+    generates: "specs/**/*.md"
+    description: Detailed specifications for the change
+    requires:
+      - proposal
+
+  - id: design
+    generates: design.md
+    description: Technical design document with implementation details
+    requires:
+      - proposal
+
+  - id: tasks
+    generates: tasks.md
+    description: Implementation checklist with trackable tasks
+    requires:
+      - specs
+      - design
+
+apply:
+  requires: [tasks]
+  tracks: tasks.md
