@@ -32,3 +32,7 @@ models-store.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Device-specific configs (create these per-device)
+trust.json
+sentinel-whitelist.json

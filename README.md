@@ -154,3 +154,22 @@ These are device-specific or regeneratable and should be managed per-device:
 - `~/.pi/agent/memory/` — Device-specific memory database
 - `~/.pi/agent/models.json` — Model configuration (device-specific)
 - `~/.pi/agent/models-store.json` — Model state (regeneratable)
+
+## Device-Specific Configuration
+
+After cloning, create these files on each device:
+
+### trust.json
+```json
+{
+  "/path/to/your/home": true
+}
+```
+
+### sentinel-whitelist.json
+```json
+{
+  "paths": ["/tmp/your-scripts.py"],
+  "readPaths": ["/home/binh/.zshrc.secrets"]
+}
+```
